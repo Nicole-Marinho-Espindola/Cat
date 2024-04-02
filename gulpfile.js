@@ -9,13 +9,13 @@ gulp.task('sass', compileSass)
 
 function compileSass() {
     return gulp
-        .src('assets/sass/*.scss')
+        .src('./*.scss')
         .pipe(sass({
             outputStyle: 'compressed'
         }).on('error', sass.logError))
-        .pipe(gulp.dest('assets/css'));
+        .pipe(gulp.dest('./'));
   };
 
 function watchSass(){
-gulp.watch('assets/sass/*.scss', compileSass)
+gulp.watch('./*.scss', compileSass)
 }

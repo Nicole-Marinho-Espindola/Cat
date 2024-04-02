@@ -15,17 +15,19 @@
             <div class="eye eye-1"></div>
             <div class="pupil pupil-1"></div>
             <div class="sparkle sparkle-1"></div>
-            <div class="sparkle sparkle-2"></div>
             <div class="eye eye-2"></div>
-            <div class="pupil pupil-1"></div>
-            <div class="sparkle sparkle-3"></div>
-            <div class="sparkle sparkle-4"></div>
-            <div class="whisker-1"></div>
-            <div class="whisker-2"></div>
-            <div class="whisker-3"></div>
-            <div class="whisker-4"></div>
-            <div class="whisker-5"></div>
-            <div class="whisker-6"></div>
+            <div class="pupil pupil-2"></div>
+            <div class="sparkle sparkle-2"></div>
+            <div class="whisker-block">
+                <div class="whisker-1"></div>
+                <div class="whisker-2"></div>
+                <div class="whisker-3"></div>
+            </div>
+            <div class="whisker-block">
+                <div class="whisker-4"></div>
+                <div class="whisker-5"></div>
+                <div class="whisker-6"></div>
+            </div>
             <div class="nose nose-1"></div>
             <div class="nose nose-2"></div>
             <div class="nose-triangle"></div>
@@ -41,6 +43,9 @@
                 <div class="nail nail-3"></div>
             </div>
         </div>
+        <div class="body"></div>
+        <div class="leg leg-1"></div>
+        <div class="leg leg-2"></div>
     </div>
 </body>
 </html>
